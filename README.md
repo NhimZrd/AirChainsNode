@@ -109,3 +109,22 @@ Delete a wallet:
 Delegate tokens to another validator:
 
 ```junctiond tx distribution withdraw-rewards $VALOPER_ADDRESS --from $WALLET --commission --chain-id junction --fees 200amf -y ```
+Edit an already running validator:
+```
+junctiond tx staking edit-validator \.
+--commission-rate 0.1.
+--new-moniker "$MONIKER" \
+--identity "" \
+--details "" \
+--from $WALLET
+--chain-id junction
+--fees 200amf \
+-y
+```
+Validator jail information:
+```
+junctiond q slashing signing-info $(junctiond tendermint show-validator) 
+```
+Get the validator out of jail:
+
+```junctiond tx slashing unjail --from $WALLET --chain-id junction --fees 200amf -y```
