@@ -108,4 +108,4 @@ Delete a wallet:
 
 Delegate tokens to another validator:
 
-```junctiond tx distribution withdraw-rewards $VALOPER_ADDRESS --from $WALLET --commission --chain-id junction --fees 200amf -y ``
+```junctiond tx distribution withdraw-rewards $VALOPER_ADDRESS --from $WALLET --commission --chain-id junction --fees 200amf -y ```
