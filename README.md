@@ -45,10 +45,10 @@ source $HOME/.bash_profile
 $faucet <YOUR_WALLET_ADDRESS>
 ```
 7. After sending tokens by bot, check their availability on your wallet with the following command:
-
+```
 junctiond q bank balances $WALLET_ADDRESS
 You should see a certain amount of tokens on your balance sheet
-
+```
 8. Create a validator:
 ```
 cd $HOME
