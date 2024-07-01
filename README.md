@@ -1,9 +1,10 @@
 # AirChainsNode
 ## Server recommendations:
--CPU: 4 cores;
--RAM: 8 GB;
--Storage: 200 GB SSD;
--OS: Ubuntu 20.04 / Ubuntu 22.04
+
+- CPU: 4 cores
+- RAM: 8 GB
+- Storage: 200 GB SSD
+- OS: Ubuntu 20.04 / Ubuntu 22.0
 
 ## Instructions for installing the AirChains node:
 1. Install package updates:
